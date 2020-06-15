@@ -1,17 +1,12 @@
-<a name="if-buzz">
-# If Buzz
-</a>
+# <a name="if-buzz">If Buzz</a>
 
-<a name="introduction">
-### Introduction
-</a>
+
+### <a name="introduction">Introduction</a>
 
 For this project, you'll be tackling more complex if/else/else-if statements in a classic simple algorithm problem: FizzBuzz.
 
 
-<a name="what-the-heck-is-fizzbuzz">
-### What The Heck Is FizzBuzz?
-</a>
+### <a name="what-the-heck-is-fizzbuzz">What The Heck Is FizzBuzz?</a>
 
 FizzBuzz is a classic problem meant to test people with simple logic that nonetheless can be approached in numerous ways. The rules are simple:
 
@@ -22,16 +17,12 @@ FizzBuzz is a classic problem meant to test people with simple logic that noneth
 
 Often this problem is given as a loop, but our app will just handle one number, passed as the first argument. See the [Workflow](#workflow) section for examples.
 
-<a name="guidelines">
-### Guidelines
-</a>
+### <a name="guidelines">Guidelines</a>
 
 * Do NOT make any extra functions for this one. Just `getInput`!
 * You can use `if` without `else` in this one, but it takes some tricks.
 
-<a name="workflow">
-### Workflow
-</a>
+### <a name="workflow">Workflow</a>
 
 * You'll fork and clone this repository.
 * You'll be working in `main.js`.
@@ -51,9 +42,7 @@ Often this problem is given as a loop, but our app will just handle one number, 
 `node main.js 15` -> 'FizzBuzz'
 
 
-<a name="steps">
-### Steps
-</a>
+### <a name="steps">Steps</a>
 
 
 ### Stretch Goals
