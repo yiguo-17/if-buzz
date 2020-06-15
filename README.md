@@ -44,8 +44,11 @@ Often this problem is given as a loop, but our app will just handle one number, 
 
 ### <a name="steps">Steps</a>
 
+1. Call `getInput` to get the number we want FizzBuzzed. See the extensive comments on how to use this pre-written helper function. Store the return value in a variable.
+2. Use `if` (and `else` if it fits your approach!) to decide what to `console.log` out to the user. See the expected outputs in the [Workflow](#workflow) section.
 
-### Stretch Goals
+
+### <a name="stretch-goals">Stretch Goals</a>
 
 * If you solved the problem without `else`, try solving it with. And vice versa. Feel free to comment out your original solution.
 * Add the ability for the user to write `node main.js 16 4 7`, making those second and third arguments the numbers used for a divisibility check instead of 3 and 5. You'll have to use `getInput` to get those extra arguments, store them in variables, and use them appropriately. The below examples use `2` and `3` as the Fizz and Buzz numbers, showing you the input you'd expect and what should result.
