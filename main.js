@@ -1,14 +1,18 @@
 /*******************************************************************************
  * Your code here!
  ******************************************************************************/
- if(typeof(parseInt(getInput(1)))==='number'){let dv1 = parseInt(getInput(1));}else {let dv1=3;}
-  if(typeof(parseInt(getInput(2)))==='number'){let dv2 = parseInt(getInput(2));}else {let dv2=5;}
+ //function to choose dividers
+ function divider(str,num){
+   if(typeof(parseInt(str))==='number'){return parseInt(str);}else {return num;}
+ }
+ const dv1 = divider(getInput(1),3);
+ const dv2 = divider(getInput(2),5);
  const rm1 = parseInt(getInput(0)) % dv1;
  const rm2 = parseInt(getInput(0)) % dv2;
  if(rm1===0 && rm2===0){console.log('FizzBuzz');} 
-else if(rm1===0){console.log('Fizz');}
-else if(rm2===0){console.log('Buzz');}
-else {console.log(getInput(0));}
+ else if(rm1===0){console.log('Fizz');}
+ else if(rm2===0){console.log('Buzz');}
+ else {console.log(getInput(0));}
 
 
 
